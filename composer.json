@@ -1,0 +1,42 @@
+{
+    "name": "bluemantis/commerce-stock-notifier",
+    "description": "Notifies a customizable set of email addresses when a Craft Commerce site is running low on stock",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "commerce stock notifier"
+    ],
+    "support": {
+        "docs": "https://github.com/blue-mantis/commerce-stock-notifier/commerce-stock-notifier/blob/master/README.md",
+        "issues": "https://github.com/blue-mantis/commerce-stock-notifier/commerce-stock-notifier/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bluemantis",
+            "homepage": "https://bluemantis.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "craftcms/commerce" : "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "bluemantis\\commercestocknotifier\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Commerce Stock Notifier",
+        "handle": "commerce-stock-notifier",
+        "developer": "Bluemantis",
+        "developerUrl": "https://bluemantis.com",
+        "documentationUrl": "https://github.com/blue-mantis/commerce-stock-notifier/commerce-stock-notifier/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/blue-mantis/commerce-stock-notifier/commerce-stock-notifier/master/CHANGELOG.md",
+        "class": "bluemantis\\commercestocknotifier\\CommerceStockNotifier"
+    }
+}
