@@ -1,6 +1,8 @@
 # Commerce Stock Notifier plugin for Craft CMS 3.x
 
-Notifies by email when a Craft Commerce site is running low on stock
+Notifies a customizable set of email addresses when a Craft Commerce site is running low on stock.
+
+Inspired by Pixel & Tonic's [CraftCMS 2 plugin](https://github.com/pixelandtonic/CommerceStockNotifier) of the same name, which was never ported to CraftCMS 3.
 
 ![Screenshot](resources/img/plugin-logo.png)
 
@@ -18,7 +20,7 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require blue-mantis/commerce-stock-notifier
+        composer require bluemantis/commerce-stock-notifier
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Commerce Stock Notifier.
 
