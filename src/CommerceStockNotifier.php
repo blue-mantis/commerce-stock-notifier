@@ -172,7 +172,7 @@ class CommerceStockNotifier extends Plugin
         $message->setTextBody(str_replace('<br>', "\n", $body));
 
         foreach ($recipients as $recipient) {
-            $message->setTo($recipient);
+            $message->setTo(trim($recipient));
             Craft::$app->mailer->send($message);
         }
 
